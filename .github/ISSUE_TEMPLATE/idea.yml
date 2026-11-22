@@ -1,0 +1,24 @@
+name: Idea or feedback
+description: Something missing, something in the way, something that could be better
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        mapScope is in public beta, so this is the right time. **English or German, both are fine.**
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you trying to find out?
+      description: The question behind the wish is often more useful than the wish itself — it sometimes has a better answer.
+  - type: input
+    id: version
+    attributes:
+      label: mapScope version
+      placeholder: 0.6.0.130

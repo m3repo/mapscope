@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in mapScope behaves wrong, breaks or crashes
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing mapScope. **Write in English or German — both are fine.**
+
+        Please do **not** paste a crash log (`mapScope.crash.log`) or a `.map` file into a public issue: they contain file paths and names from your machine and your project. Mail them to `mdView@outlook.de` and just tick the box below.
+  - type: input
+    id: version
+    attributes:
+      label: mapScope version
+      description: ? → About, or right-click `mapScope.exe` → Properties → Details.
+      placeholder: 0.6.0.130
+    validations:
+      required: true
+  - type: input
+    id: delphi
+    attributes:
+      label: Delphi version and target platform of the analysed project
+      placeholder: Delphi 12.2, Win32
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the map of ...
+        2. Select ...
+        3. ...
+  - type: checkboxes
+    id: crash
+    attributes:
+      label: Crash log
+      options:
+        - label: mapScope wrote a `mapScope.crash.log` next to the EXE — I can mail it in.
