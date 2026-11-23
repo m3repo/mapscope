@@ -1,5 +1,15 @@
 # mapScope manual
 
+mapScope shows what is inside your Delphi executable. It reads the detailed `.map` file the linker writes next to your EXE, DLL or BPL and breaks the binary down into segments, units, classes, methods and resources — with exact sizes, charts and the bytes themselves. Use it to find out why an executable is as large as it is, what a library or a generic type really costs, and what changed between two builds.
+
+**Key features**
+
+- **Generics and RTTI report** — what generic types and their instantiations cost, and how much type information (VMT/RTTI) your binary carries.
+- **Compare with a baseline** — keep the current map, rebuild, and see which units, segments and generics grew or shrank.
+- **Resource browser** — string tables as text, images and icons as previews.
+- **Searchable hex view** — the bytes of the real executable, with text, number and byte-sequence search; selected items are highlighted.
+- **URL-based navigation** — every item has its own link; back and forward work like in a browser, and links can be copied.
+
 This manual covers what you need to work with mapScope. It is deliberately short — most things explain themselves once a map is loaded.
 
 - [Preparing your project](#preparing-your-project)
