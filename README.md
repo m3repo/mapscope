@@ -2,12 +2,12 @@
 
 **See what is inside your Delphi executable.**
 
-mapScope reads the detailed `.map` file that the Delphi linker writes next to your EXE, DLL or BPL and shows where the bytes go: segments, units, classes, methods, resources — with sizes, charts and a hex dump of the actual executable.
+<!-- Animierter Screenshot (GIF, ~20 s, Schleife): Map öffnen, Baum, Unit wählen -> Hexdump, Generics-Report, Doppelklick im Hexdump -->
+![mapScope: open a map, browse units, jump into the hex dump, read the generics report](docs/img/mapscope-tour.gif)
 
-> **Public beta.** mapScope is free to use. Features may still change; feedback and bug reports are welcome (see [Issues](../../issues)).
+mapScope reads the detailed `.map` file that the Delphi linker writes next to your EXE, DLL or BPL and shows where the bytes go: segments, units, classes, methods, resources — with sizes, charts and a hex dump of the actual executable. **Includes an in-depth analysis of generics and RTTI**.
 
-<!-- Screenshot: Hauptfenster mit Übersicht und Hexdump -->
-![mapScope main window](docs/img/main-window.png)
+> **Public beta.** mapScope is free to use. Features may still change; feedback and bug reports are welcome (see [Issues](../../issues)). It has been tested with map files from Delphi 12. If something looks wrong with another Delphi version, please open an issue and attach the .map and EXE of a small demo project as a ZIP file.
 
 ## What it does
 
