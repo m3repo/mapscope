@@ -55,7 +55,7 @@ If the map and the executable do not belong together (for example an old map nex
 - **Right, bottom:** the hex dump of the executable.
 - **Footer:** file names, the byte under the mouse, number of units and symbols.
 
-The **View** menu switches the layout (Ctrl+Shift+1/2/3: document and hex dump, document only, large hex dump). Ctrl+Shift+Space maximizes the active pane.
+The **View** menu switches the layout (Ctrl+Shift+1/2/3: document and hex dump, document only, large hex dump). Ctrl+Shift+Space, or a double-click on a pane's title bar, maximizes the pane; the other panes stay visible as collapsed title bars. Click one of them (or press Ctrl+Shift+Space again) to get the layout back.
 
 Every selection is remembered: **Alt+←** and **Alt+→** go back and forth; right-click the back button for the history list. Links on the pages work the same way.
 
@@ -128,9 +128,9 @@ To see what a change did to your binary:
 1. Load the map of the current build.
 2. **File → Keep as baseline**.
 3. Change your code and rebuild.
-4. Press **F5** (Reload). mapScope opens the comparison: overall numbers, segments, and units that are new, gone or changed in size, plus the changes in generics.
+4. Press **F5** (Reload). mapScope opens the comparison: overall numbers, segments, units that are new, gone or changed in size (with totals, and new or removed units grouped by area such as `Vcl` or `MyLib.Pdf`), symbols that are new, gone or changed in size, plus the changes in generics.
 
-**File → Compare with…** (Ctrl+Shift+O) compares the loaded map with any other `.map` file instead.
+**File → Compare with…** (Ctrl+Shift+O) compares the loaded map with any other `.map` file instead. This also works for two different programs: load the map of the program that has a feature, then compare it with the map of the program that lacks it. Everything listed as *new* (new units, new symbols in shared units) is what the first program has in addition — an upper limit for what the feature would add to the second one.
 
 ## Hex dump in its own window
 
@@ -161,7 +161,7 @@ To see what a change did to your binary:
 | Ctrl+F, F3, Shift+F3 | Search in the page or hex dump, next / previous match |
 | Ctrl+Plus, Ctrl+Minus, Ctrl+0 | Zoom |
 | Ctrl+Shift+1 / 2 / 3 | Layout: document and hex dump / document only / large hex dump |
-| Ctrl+Shift+Space | Maximize the active pane |
+| Ctrl+Shift+Space | Maximize the active pane (or double-click its title bar) |
 | F6 / Shift+F6 | Next / previous pane |
 | Ctrl+P, Ctrl+F2 | Print, print preview |
 | Ctrl+G | Go to offset (hex window) |
