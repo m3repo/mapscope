@@ -47,9 +47,6 @@ If the map and the executable do not belong together (for example an old map nex
 
 ## The main window
 
-<!-- Screenshot: Hauptfenster, Bereiche beschriftet -->
-![Main window](img/main-window-parts.png)
-
 - **Left:** the structure tree.
 - **Right, top:** the page of the selected item.
 - **Right, bottom:** the hex dump of the executable.
@@ -135,9 +132,6 @@ To see what a change did to your binary:
 ## Hex dump in its own window
 
 **View → Hex dump in own window** opens the executable in a separate window, with the bytes of the current selection highlighted.
-
-<!-- Screenshot: Hex-Fenster mit Baum der Markierungen -->
-![Hex window](img/hex-window.png)
 
 - The tree on the left lists your kept marks, the bytes of the selected item and the search results. Click an entry to jump there; right-click to rename, remove or keep it (F2 and Del work too).
 - **View → Go to offset…** (Ctrl+G) jumps to an offset (decimal, `0x…` or `$…`).

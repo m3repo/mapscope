@@ -13,7 +13,7 @@ body:
     attributes:
       label: mapScope version
       description: ? → About, or right-click `mapScope.exe` → Properties → Details.
-      placeholder: 0.6.0.130
+      placeholder: 0.7.0.77
     validations:
       required: true
   - type: input

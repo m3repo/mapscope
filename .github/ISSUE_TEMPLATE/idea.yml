@@ -21,4 +21,4 @@ body:
     id: version
     attributes:
       label: mapScope version
-      placeholder: 0.6.0.130
+      placeholder: 0.7.0.77
