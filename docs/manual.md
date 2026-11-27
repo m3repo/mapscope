@@ -72,7 +72,7 @@ Each entry shows its size. **Ctrl+F3** (or the magnifier above the tree) filters
 
 **Ctrl+Q** filters only the level of the focused entry (quick filter). The text matches from the beginning of the name; separate parts with spaces, and they must appear in that order — `sys cla` finds `System.Classes`. Start with a space to match anywhere in the name. Pressing **Ctrl+Q** again switches to the other mode, where the letters only have to appear in order (`syscls`).
 
-**Views** — the star above the tree offers different ways to look at the tree, for example *Units by size*, *Units by namespace*, *Large items only (64 KB and more)* or *Without symbols*. The same menu lets you group units and choose the sort order. The chosen view stays when you reload or open another map.
+**Views** — the star above the tree offers different ways to look at the tree, for example *Units by size*, *Units by namespace*, *Large items only (64 KB and more)* or *Without symbols*. The RCDATA resources are grouped by content (images, Delphi forms, XML, archives and so on). The same menu lets you group units and choose the sort order. The chosen view stays when you reload or open another map.
 
 Right-click an entry for its context menu: copy a link to it, or **Show in hex dump**.
 
