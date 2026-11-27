@@ -26,6 +26,7 @@ This manual covers what you need to work with mapScope. It is deliberately short
 - [Printing](#printing)
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [Limits](#limits)
+- [Other vendors' executables](#other-vendors-executables)
 
 ## Preparing your project
 
@@ -165,3 +166,9 @@ To see what a change did to your binary:
 - A `.map` file contains no type information: the size of a record or class instance cannot be shown.
 - Unit contributions per segment are exact. Symbol sizes are an approximation: the distance to the next symbol, capped at the end of the unit's contribution.
 - Type information of records and enums has no symbol of its own, so the *Type information* report is an estimate, not an exact sum.
+
+## Other vendors' executables
+
+mapScope is made for analysing your own builds. It can also open executables without a map, including those of other vendors. Many license agreements restrict reverse engineering, decompilation or disassembly, and embedded images and texts are protected by copyright. If you open software you did not build yourself, you are responsible for complying with its license terms and the applicable law. In the European Union, for example, a lawful user may observe and study how a program works, while decompiling it is only permitted within narrow limits (such as interoperability).
+
+mapScope only reads files. It does not circumvent copy protection, encryption or other technical protection measures. See also `LICENSE.md`.

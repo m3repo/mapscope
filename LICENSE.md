@@ -21,6 +21,10 @@ Redistribution of the unmodified program is permitted, provided that all accompa
 
 Modification, renaming, decompilation, reverse engineering, commercial exploitation, or incorporation into other products is not permitted without the express consent of the author, to the extent legally permissible.
 
+### Analysing Third-Party Software
+
+mapScope is intended for analysing your own builds. If you open executables, DLLs or packages of other vendors, you alone are responsible for complying with their license terms and with the applicable law, in particular restrictions on reverse engineering, decompilation and disassembly, and the copyright in embedded content such as images and texts. mapScope does not circumvent copy protection, encryption or other technical protection measures. The author accepts no liability for any use of the program that infringes the rights of third parties.
+
 ### Beta Version
 
 This program is a preview (beta) version intended for testing and evaluation. Features may be incomplete, subject to change, or removed without notice; malfunctions cannot be ruled out. The following notes on warranty and liability apply to this preview version in particular.
